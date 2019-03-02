@@ -172,7 +172,6 @@ https://github.com/namecoin/namecoin-core/blob/09bdf373fb3cefa9faf868f1c415e0498
 		.script_prefix           = 196,
 		.private_key_prefix      = 111+128
 	},
-/*
 
 /*
 ZEON :
