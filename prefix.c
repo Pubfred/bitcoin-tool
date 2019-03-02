@@ -173,6 +173,27 @@ https://github.com/namecoin/namecoin-core/blob/09bdf373fb3cefa9faf868f1c415e0498
 		.private_key_prefix      = 111+128
 	},
 /*
+
+/*
+ZEON :
+public keys / script / private keys:
+https://github.com/Pubfred/Zeon_hex/blob/master/src/chainparams.cpp#L214
+https://github.com/Pubfred/Zeon_hex/blob/master/src/chainparams.cpp#L318
+*/
+	{
+		.name                    = "zeon",
+		.public_key_prefix       = 80,
+		.script_prefix           = 18,
+		.private_key_prefix      = 80+128
+	},
+	{
+		.name                    = "zeon-testnet",
+		.public_key_prefix       = 128,
+		.script_prefix           = 11,
+		.private_key_prefix      = 128+128
+	},
+/*
+
 Komodo:
 public keys / script / private keys:
 https://github.com/jl777/komodo/blob/a86845f3dc5444d24f4420908125f4c4cb58b4ff/src/chainparams.cpp#L104
