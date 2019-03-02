@@ -183,13 +183,13 @@ https://github.com/Pubfred/Zeon_hex/blob/master/src/chainparams.cpp#L318
 		.name                    = "zeon",
 		.public_key_prefix       = 80,
 		.script_prefix           = 18,
-		.private_key_prefix      = 80+128
+		.private_key_prefix      = 233
 	},
 	{
 		.name                    = "zeon-testnet",
 		.public_key_prefix       = 128,
 		.script_prefix           = 11,
-		.private_key_prefix      = 128+128
+		.private_key_prefix      = 240
 	},
 /*
 
