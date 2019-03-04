@@ -111,6 +111,8 @@ more data than is expected, then it'll refuse to process it at all.
       darkcoin-testnet
       jumbucks
       jumbucks-testnet
+      zeon
+      zeon-testnet
   --fix-base58check : Attempt to fix a Base58Check string by changing
                       characters until the checksum matches.
   --fix-base58check-change-chars : Maximum number of characters to change
